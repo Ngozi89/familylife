@@ -24,6 +24,7 @@ h1, h2 {
     color: #3a3a3a;
 }
 
+/* Style navigation link */
 #logo {
     float: left;
     font-size: 280%;
@@ -51,6 +52,14 @@ h1, h2 {
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/* Add hero image */
+
+#hero {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/familylife.png');
 }
 
 /* Crate footer */
