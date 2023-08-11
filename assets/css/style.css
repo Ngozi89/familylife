@@ -12,11 +12,21 @@
 body {
     background-color: whitesmoke;
     font-family: 'Lato, sans-serif';
+    font-weight: 300;
+    color: #3a3a3a;
 }
 
-header {
-    background-color: red;
-    color: #ffffff;
+/* Style Logo */
+h1, h2 {
+    font-family: 'oswals', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #3a3a3a;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
 }
 
 /* Crate footer */
