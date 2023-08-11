@@ -1,8 +1,14 @@
 body {
-    background-color: red;
+    background-color: whitesmoke;
     font-family: Arial;
 }
 
-h1 {
+header {
+    background-color: red;
     color: #ffffff;
+}
+
+/* Crate footer */
+footer {
+    background-color: red;
 }
