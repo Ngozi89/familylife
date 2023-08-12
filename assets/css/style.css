@@ -36,7 +36,7 @@ header a {
     text-decoration: none;
     color: inherit;
 }
-h1 {
+h1, h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
@@ -94,6 +94,18 @@ main {
     height: 600px;
     width: 100%;
     background: url('../images/familylove.png') no-repeat center center/cover;
+    position: relative;
+}
+
+#cover-text {
+    font-size: 1rem;
+    margin: 0;
+  
+}
+
+div > h2 {
+    color: #3a3a3a;
+    box-shadow: inset;
 }
 
     /* Footer */
@@ -151,5 +163,11 @@ main {
     /* Make links indicate they are clickable when hovered over */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
+    }
+
+    /* Set cover text to fit large screen */
+    #cover-text {
+        width: 300px;
+        left: 50px;
     }
 }
