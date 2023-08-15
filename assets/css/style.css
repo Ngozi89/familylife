@@ -129,7 +129,7 @@ img {
     list-style-type: none;
 }
 
-#social-networks li {
+#social-networks i {
     font-size: 160%;
     padding: 5%;
     color: #fff;
@@ -226,7 +226,12 @@ img {
     }
 
     #follow-us {
-        margin-top: 200px;
+        margin-top: 250px;
+    }
+    footer {
+        bottom: 0;
+        right: 0;
+        position: sticky;
     }
 
 }
