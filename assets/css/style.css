@@ -5,11 +5,11 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    border: none;
 }
 
 /* General body style */
-body{
+body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -18,29 +18,32 @@ body{
     font-family: 'Lota', sans-serif;
 }
 
-
-/* Header */
-header {
-    background-color: #fff;
-        padding: 0 1rem;
-        position: fixed;
-        z-index: 99;
-        width: 100%;
-        box-shadow: 0 2px 2px #3a3a3a;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-}
-
-header a {
-    text-decoration: none;
-    color: inherit;
-}
 h1, h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
     color: black;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.1rem;
+    padding-top: 30px;
+    padding: 0 1rem;
 }
 
 #menu {
@@ -49,7 +52,7 @@ h1, h2 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 
 }
@@ -59,7 +62,7 @@ h1, h2 {
 }
 
 /* Style navbar with dropdown toggle */
-nav{
+nav {
     position: absolute;
     background-color: #fff;
     width: 100%;
@@ -68,7 +71,6 @@ nav{
     box-shadow: 0 2px 2px #3a3a3a;
     display: none;
     top: 100%;
-        
 }
 
 /* Nav toggle */
@@ -84,49 +86,56 @@ nav{
     font-size: 2rem;
 }
 
+/* Search Button */
+
 main {
     /* Make main element take up any  surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
 
-#hero {
-    height: 600px;
-    width: 100%;
-    background: url('../images/familylove.png') no-repeat center center/cover;
-    position: relative;
+/* Set image */
+
+img {
+    height: 300%;
+    width: 80%;
+    margin: 30px;
 }
 
 #cover-text {
-    font-size: 1rem;
-    margin: 0;
-  
+    font-size: 20px;
+    padding: 30px;
+    float: right;
+    display: flex;
+    padding-bottom: 30px;
 }
 
-div > h2 {
-    color: #3a3a3a;
-    box-shadow: inset;
+#second-text {
+    font-size: 20px;
+    padding: 30px;
+    display: flex;
 }
 
-    /* Footer */
-        #social-networks {
-            text-align: center;
-            padding: 20px 0;
-            display: flex;
-            justify-content: space-evenly;
-            list-style-type: none;
-        }
-    
-        #social-networks i {
-            font-size: 160%;
-            padding: 5%;
-            color: #3a3a3a;
+/* Footer */
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #fff;
+
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Header  */
+    /* Header */
     nav {
         display: block;
         position: relative;
@@ -134,40 +143,69 @@ div > h2 {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
-        .nav-toggle-label {
-            display: none;
+
+    .nav-toggle-label {
+        display: none;
     }
 
     #logo {
-       font-size: 280%;
-       line-height: 75px;
-       margin: 0 0.5rem;
-    }
-        /* Main content appear*/
-    main{
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        font-size: 280%;
+        float: left;
+        margin-left: 10px;
     }
 
 }
 
+    /* Main content appear*/
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+
 /* Large devices(laptops and desktops, 992px and up) */
 @media screen and (min-width: 1200px) {
+
     /* Make links indicate they are clickable when hovered over */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 
     /* Set cover text to fit large screen */
-    #cover-text {
-        width: 300px;
-        left: 50px;
+
+    img {
+        width: 100vh;
+        max-height: fit-content;
+        float: right;
+        margin-top: 30px;
+        font-size: x-small;
     }
+
+    #first-text {
+
+    }
+    #cover-text {
+        font-size: 220%;
+        position: absolute;
+        width: 50vh;
+        margin: 100px;
+        margin-left: 20px;
+    }
+
+    #second-text {
+        font-size: 200%;
+        margin-top: 350px;
+        width: 50vh;
+        text-align: center;
+        float: right;
+
+    }
+
 }
