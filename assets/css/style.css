@@ -115,6 +115,10 @@ img {
     padding: 30px;
     display: flex;
 }
+/* About us section */
+#about-section {
+    margin: 1rem;
+}
 
 /* Footer */
 #social-networks {
@@ -125,7 +129,7 @@ img {
     list-style-type: none;
 }
 
-#social-networks i {
+#social-networks li {
     font-size: 160%;
     padding: 5%;
     color: #fff;
@@ -189,14 +193,19 @@ img {
     }
 
     #first-text {
-
+        font-size: 30px;
+        margin-top: 100px;
+        display: inline-block;
+        margin-left: 500px;
     }
+
     #cover-text {
         font-size: 220%;
         position: absolute;
         width: 50vh;
         margin: 100px;
         margin-left: 20px;
+
     }
 
     #second-text {
@@ -206,6 +215,18 @@ img {
         text-align: center;
         float: right;
 
+    }
+    /* About section */
+    #about-section {
+       margin-top: 100px;
+    }
+
+    .about {
+        margin-top: 250px;
+    }
+
+    #follow-us {
+        margin-top: 200px;
     }
 
 }
