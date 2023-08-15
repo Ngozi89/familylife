@@ -23,7 +23,7 @@
             <h1>Family Life</h1>
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-house-user"></i></label>
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-house-user" style="margin-right: 30px;"></i></label>
 
 
         <nav>
@@ -37,12 +37,64 @@
     </header>
 
     <main>
-        <section>
-            <div></div>
-        </section>
+        <div id="follow-us">
+            <h2 style="text-align: center; margin-bottom: 15px;">To know more of what we do, follow us on our media platforms
+            </h2>
+        </div>
+                  <!-- Form section -->
+
+            <form action="/action_page.php" method="post">
+                <h2>Sign up for a happy family life</h2>
+                <label for="full_name">Full Name</label>
+                <input type="text" name="full_name" id="full_name" class="text-input" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="text" name="email" id="email_address" class="input-text" required>
+                <br>
+            
+                <div id="radio-button">
+                    <div>
+                        <label for="yes">Yes</label>
+                        <input type="yes" name="news_letter" id="yes" value="yes" required>
+                    </div>
+                    <div>
+                        <label for="no">No</label>
+                        <input type="no" name="new_letter" id="no" value="no" required>
+                    </div>
+                </div>
+                <button type="submit" class="join-_button"></button>
+            </form>
     </main>
 
+    <!--Footeer section -->
 
+        <footer style="background-color: #524F81;">
+            <ul id="social-networks">
+                <li>
+                    <a href="https://www.facebook.com/ngozi.madu.792" target="_blank" rel="noopener"
+                        aria-label="visit our facebook page (opens in a new tab)">
+                        <i class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/ngozi_igboamaka/" target="_blank" rel="noopener"
+                        aria-label="visit our instagram page (opens in a new tab)">
+                        <i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/Insidelife24_7" target="_blank" rel="noopener"
+                        aria-label="visit our twitter page (opens in a new tab)">
+                        <i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/@IgboAmakaTV/featured" target="_blank" rel="noopener"
+                        aria-label="visit our youtube page (opens in a new tab)">
+                        <i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+            <p style="text-align: center; color: #fff;">Copyright © Family Life 2023</p>
+        </footer>
+        <!-- Font Awesom kit -->
+        <script src="https://kit.fontawesome.com/a6f48824c3.js" crossorigin="anonymous"></script>
 </body>
 
 </html>

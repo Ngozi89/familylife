@@ -22,7 +22,7 @@ h1, h2 {
     font-family: 'Oswald', sans-serif;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: black;
+    color: #3a3a3a;
 }
 
 /* Header */
@@ -133,7 +133,13 @@ img {
     font-size: 160%;
     padding: 5%;
     color: #fff;
+}
 
+footer {
+    background-color: #523f81;
+    bottom: 0;
+    right: 0;
+    position: sticky;
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -225,16 +231,15 @@ img {
         padding-left: 30%;
         padding-top: 2.5%;
     }
+    #about-section > h1 {
+        display: inline-block;
+        margin-left: 150px;
+        margin-bottom: 30px;
+    }
 
 
     #follow-us {
         margin-top: 100px;
-    }
-
-    footer {
-        bottom: 0;
-        right: 0;
-        position: sticky;
     }
 
 }
