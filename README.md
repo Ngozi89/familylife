@@ -1,5 +1,11 @@
 This website is is created for the purpose of completing the first milestone project for the Code Institution Full Stack Development course. It was built using the knowledge gained from the HTML and CSS as well as doing the Love Running Project. The live website can be found <a href="https://ngozi89.github.io/familylife/">
 
+<img src="" alt="Mobile">
+<img src="assets/images/2023-08-18 (13).png" alt="Mobile">
+<img src="assets/images/2023-08-18 (16).png" alt="Big screen">
+<img src="assets/images/2023-08-18 (17).png" alt="ipad">
+<img src="assets/images/2023-08-18 (18).png" alt="Chromeboom">
+
 # Purpose
 
 The Family Life website is aimed at equipping parents with the knowledge they need in making parenting easy and fun. Teach parent how to communicate with their child(ren) and get the kids to listen without the parent yelling, nagging or losing control. And this is done by hosting an online class via zoom. Any parent that sign the form will get an acknolegment email followed with update of zoom link and time for the class. There's also a parenting page on the website for tips and quotes on how to become a successful parent.
@@ -176,4 +182,12 @@ Validation of inclusion for all features included in the Structure of the Websit
 <img src="assets/images/2023-08-18 (2).png" alt="Form">
 <img src="assets/images/2023-08-18 (9).png" alt="Subscription page">
 <img src="assets/images/form1.jpg" alt="Subscription skeleton">
-<img src="" alt="HTML">
+
+Site has been text and its responsive both on big screen, mobile and ipad
+<img src="" alt="Mobile">
+<img src="assets/images/2023-08-18 (13).png" alt="Mobile">
+<img src="assets/images/2023-08-18 (16).png" alt="Big screen">
+<img src="assets/images/2023-08-18 (17).png" alt="ipad">
+<img src="assets/images/2023-08-18 (18).png" alt="Chromeboom">
+
+
