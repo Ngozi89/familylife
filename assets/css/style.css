@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Lota', sans-serif;
 }
@@ -46,6 +45,7 @@ header a {
     padding: 0 1rem;
 }
 
+/* Menu */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -89,7 +89,7 @@ nav {
 /* Search Button */
 
 main {
-    /* Make main element take up any  surplus space to push footer down */
+    /* Make main element take up any  access space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
@@ -145,7 +145,6 @@ img {
 }
 
 .text-input {
-    background: transparent;
     color: #3a3a3a;
     width: 100%;
     height: 25px;
@@ -185,7 +184,7 @@ img {
 }
 
 #social-networks i {
-    font-size: 160%;
+    font-size: 130%;
     padding: 5%;
     color: #fff;
 }
@@ -197,7 +196,7 @@ footer {
     position: sticky;
 }
 
-/* Media query: tablets and larger (768px and up) */
+/* Media query for tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -235,15 +234,13 @@ footer {
         margin-top: 79px;
     }
 
-/* Large devices(laptops and desktops, 992px and up) */
+/* Media query for Large devices(laptops and desktops, 992px and up) */
 @media screen and (min-width: 1200px) {
 
-    /* Make links indicate they are clickable when hovered over */
+    /* Clickable link hovered over */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
-
-    /* Set cover text to fit large screen */
 
     img {
         width: 100vh;
@@ -286,12 +283,12 @@ footer {
         padding-left: 30%;
         padding-top: 2.5%;
     }
-    #about-section > h1 {
+    #about-section > h2 {
         display: inline-block;
         margin-left: 150px;
         margin-bottom: 30px;
     }
-/* Yes */
+/* Consent */
     .radio-button {
         width: 30%;
         display: contents;
@@ -312,7 +309,6 @@ footer {
         font-size: 300%;
         text-align: center;
         margin-top: 100px;
-        margin-left: 500;
         letter-spacing: 4px;
     }
 
@@ -336,8 +332,8 @@ footer {
 
     /* Guotes */
 
-    #quotes > h2 {
-        margin-top: 100px;
+    #quotes > h3 {
+        margin-top: 150px;
     }
 
     .first-quote {
@@ -360,7 +356,6 @@ footer {
     }
 
     #third-quote-image {
-        float: calc(center);
         width: 60vh;
 
     }
@@ -369,6 +364,12 @@ footer {
         width: 60vh;
         float: left;
         margin-left: 150px;
+        display: flex;
+    }
+
+    /* Remove ecess space on footer*/
+    #reduce{
+        margin-bottom: -700px;
     }
 
 
