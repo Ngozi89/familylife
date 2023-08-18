@@ -1,16 +1,16 @@
-This website is is created for the purpose of completing the first milestone project for the Code Institution Full Stack Development course. It was built using the knowledge gained from the HTML and CSS as well as doing the Love Running Project. The live website can be found
+This website is is created for the purpose of completing the first milestone project for the Code Institution Full Stack Development course. It was built using the knowledge gained from the HTML and CSS as well as doing the Love Running Project. The live website can be found <a href="https://ngozi89.github.io/familylife/">
 
-Purpose
+# Purpose
 
-The Family Life website is aimed at equipping parents with the knowledge they need in making parenting easy and fun. Teach parent how to communicate with their child(ren) and get the kids to listen without the parent yelling, nagging or losing control. And this is done by hosting an online class via zoom. There's also a parenting page on the website for tips and quotes on how to become a successful parent.
+The Family Life website is aimed at equipping parents with the knowledge they need in making parenting easy and fun. Teach parent how to communicate with their child(ren) and get the kids to listen without the parent yelling, nagging or losing control. And this is done by hosting an online class via zoom. Any parent that sign the form will get an acknolegment email followed with update of zoom link and time for the class. There's also a parenting page on the website for tips and quotes on how to become a successful parent.
 
-The page has "About" page for uses to read about what the website and it's aim are. Any parent who's interested can subscribe to join the class and will recieve email  with code to join the parenting class. Parents can also indicate if they want to receive news update or not. This is not a requirement anyone who's interested in receiving email update from Family Life will consent and anyone who doesn't will simply leave the checkbox blank.
+The page has "About" page for uses to read about what the website stands for and it's aim. Any parent who's interested can subscribe to join the class and will recieve email  with code to join the parenting class. Parents can also indicate if they want to receive news update or not. This is not a requirement, anyone who's interested in receiving email update from Family Life will consent and anyone who doesn't will simply leave the checkbox blank. <img src="assets/images/2023-08-18 (3).png" alt="About page"
 
-User Experience Design
+## User Experience Design
 
 User Stories
 
-First Time Visitor Goal
+## First Time Visitor Goal
 
 .As a first time user I want to easily understand what the site main purpose is.
 
@@ -20,7 +20,7 @@ First Time Visitor Goal
 
 . As a first time user I found the site interested and want to join the free online parenting parent as well as get updates about parenting and family.
 
-Returning Visitors Goals.
+## Returning Visitors Goals.
 
 . As a returning use I want to receive new ideas on parenting and family on the site and know when and how to join the free class.
 
@@ -28,7 +28,7 @@ Returning Visitors Goals.
 
 . As a returning users I want to contact the site owner and share my personal parenting challenges.
 
-Frequent Visitor Goal
+## Frequent Visitor Goal
 
 . As a frequent user I want to see more tips and quotes for easy patenting because that's a life time job even when the child is grown.
 
@@ -36,7 +36,7 @@ Frequent Visitor Goal
 
 . As a frequent user I to see more photos with happy families, join the class and enterate with parents
 
-Site structure
+## Site structure
 
 All pages contains a navigation menu at the top right side of the website. Users can easily move from one page to the other. The navigation menu collapses on mobile and show font icon of a home that has a home user inside. This is done for the aim purpose of fulfilling user story:
 
@@ -76,52 +76,54 @@ The Parenting page will contain parenting tips and quotes that will fulfil the p
 
 | As a frequent user I want to see more tips and quotes for easy patenting because that's a life time job even when the child is grown.  
 
-Design
+# Design
 
 The site will use 3 colors white background, deep purple and deep dark gray. The deep purple is used for calming effect on the mind and body which is part of the aim of the site. The teach parent how to speak to their kids calming without yelling, nagging or losing control. The white background is for the peace of home. And dark gray for the eye comfort of the users.
 
-Typography
+# Typography
 
-The header on all pages will use Oswald, sans-serif while the body used Lota, sans-serif
+The header on all pages used Oswald, sans-serif while the body used Lota, sans-serif
 
-Imagery
+## Imagery
 
-Features Left to Implement
+All images was gotten from <a href="https://www.canva.com/">
 
-Uses would like to book for concealing
+## Features Left to Implement
 
-Technologies
+Calender where users can to book for personal concealing
 
-. HTML
+## Technologies
+
+. ##HTML
 ........ This project use HTML as the main language to complete the structure of the website.
 
-CSS
+## CSS
 ..... This project used CSS in styling the website. The CSS style.css was created separately and linked to HTML. There is also so elements with Inline-styling to achieve the desired results.
 
-Font Awesome
+## Font Awesome
 
 ...... Font awesome icons are used for the navbar and link contain in the header. Other font awesome icons is for social media platforms and linkes contains in the footer.
 
-Google Font
+## Google Font
 
 ...... Google fonts are used throughout the whole project to import Lato Oswald and included sans-serif in case the Google font falls.
 
-GitHub
+## GitHub
 
 ..... Github is the hosting site used to store the source code website and Git Pages is used for the deployment of the site.
 
-Git
+## Git
 ..... Git is used as version control software to commit and push code to the github repository where the source code were stored
 
-Google Chrome Developer Tools
+## Google Chrome Developer Tools
 
 .... Google chrome developer tool was used to inspect the page and help debug issues with the site layout and test different css styles
 
-CSS Generator
+## CSS Generator
 
 ..... This was the tool used to convert the rgba and Hex colors for the site.
 
-Project Creation
+## Project Creation
 
 ..... This project was created by using "Code Institute Full Template. Under use this template a new repository of familylife was created. Under code a HTML link of familylife was copied to clipboard and a new work space was created on app.codeanywhere using the github link of familylife. During the project python3 -m http.server was used to open the and view the project on webbrowser.
 
@@ -129,7 +131,7 @@ Project Creation
 
 Then git push this command is used to push all committed changes to the GitHub repository.
 
-Deployment
+## Deployment
 This project was deployed on navigating to the GitHub repository
 
 1 Click the Settings tab
@@ -137,15 +139,41 @@ This project was deployed on navigating to the GitHub repository
 3 Make sure the Source is Deploy from a branch. The branch has to be set on main followed by root then click save
 4 Click code at the top left side to refresh the page and check down at the right hand side after packages you will see the active Deployments. Click on the github-page and on the right side you open the browser. And this will take you the the life project of Family Life.
 
-Credits
+## Credits
 
 The images used on this project was taken from Canva and permission was obtained as a pro member of canva.
 
 Quotes on the parenting page was goten from.....
 
-Acknowledgment
+## Acknowledgment
 I would like to thank my mentor Ronan for his guidance and for taking out extra time to provide me with all the information I needed for the success of my project. The first meeting we hand was 2 days before the project submission and as a result, volunteered to guide me through using his  lunch break. This means a lot to me.
 
 I will also acknowledge myself for the effort and dedication I put on this project. The outcome of the website was really amazing being that I started the whole process by myself because I couldn't get time earlier to do the project plan with my mentor.
 
-And finally I would like to thank my Chinonyerem my 10 year old daughter for drawing the website skeleton.
+## Testing
+
+The testing performed on the visual effects and layout of the Website. Testing was done on all the web browsers and all screen sizes.
+
+All nav links should direct to the correct html pages as per their names. The Home page is the exception, this one will redirect to index.html.
+
+All links to external websites must open in a new browser.
+
+Testing of form validation will also be required to ensure the correct inputs are taken and that all fields are required.
+
+Validation of inclusion for all features included in the Structure of the Website / Wireframes must be performed.
+
+<img src="assets/images/2023-08-18 (1).png" alt="CSS">
+<img src="assets/images/2023-08-18 (4).png" alt="HTML">
+<img src="assets/images/2023-08-18 (11).png" alt="Home page">
+<img src="assets/images/home.jpg" alt="Home skeleton">
+<img src="assets/images/2023-08-18 (5).png" alt="Parenting">
+<img src="assets/images/2023-08-18 (8).png" alt="Parenting home page">
+<img src="assets/images/parenting1.jpg" alt="Parenting skeleton">
+<img src="assets/images/2023-08-18 (6).png" alt="About">
+<img src="assets/images/2023-08-18 (10).png" alt="About Home page">
+<img src="assets/images/about.jpg" alt="About skeleton">
+<img src="assets/images/2023-08-18 (7).png" alt="Subscribe page">
+<img src="assets/images/2023-08-18 (2).png" alt="Form">
+<img src="assets/images/2023-08-18 (9).png" alt="Subscription page">
+<img src="assets/images/form1.jpg" alt="Subscription skeleton">
+<img src="" alt="HTML">
