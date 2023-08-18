@@ -94,7 +94,7 @@ main {
     margin-top: 47px;
 }
 
-/* Set image */
+/* Set Text and images */
 
 img {
     height: 300%;
@@ -102,19 +102,18 @@ img {
     margin: 30px;
 }
 
-#cover-text {
-    font-size: 20px;
-    padding: 30px;
-    float: right;
-    display: flex;
-    padding-bottom: 30px;
+#first-text {
+    font-size: 140%;
+    text-align: center;
+    margin: 10px;
 }
 
-#second-text {
-    font-size: 20px;
-    padding: 30px;
-    display: flex;
+main p {
+    font-size: 130%;
+    margin: 30px;
+    border: 3rem;
 }
+
 /* About us section */
 #about-section {
     margin: 1rem;
@@ -194,6 +193,7 @@ footer {
     bottom: 0;
     right: 0;
     position: sticky;
+    width: 100%;
 }
 
 /* Media query for tablets and larger (768px and up) */
@@ -242,14 +242,6 @@ footer {
         border-bottom: 1px solid #3a3a3a;
     }
 
-    img {
-        width: 100vh;
-        max-height: fit-content;
-        float: right;
-        margin-top: 30px;
-        font-size: x-small;
-    }
-
     #first-text {
         font-size: 30px;
         margin-top: 100px;
@@ -257,23 +249,41 @@ footer {
         margin-left: 500px;
     }
 
-    #cover-text {
-        font-size: 220%;
-        position: absolute;
-        width: 50vh;
-        margin: 100px;
-        margin-left: 20px;
-
+    #first-img {
+        width: 60vh;
+        float: left;
     }
 
-    #second-text {
-        font-size: 200%;
-        margin-top: 350px;
-        width: 50vh;
-        text-align: center;
+    #secound-text > p {
+        font-size: 110%;
+        letter-spacing: 1px;
+        width: 60%;
+        height: 80px;
         float: right;
-
+        margin-right: 40px;
+        margin-top: 100px;
     }
+
+
+    #secound-img {
+        width: 100vh;
+        margin-top: 200px;
+    }
+
+    #third-text {
+        font-size: 100%;
+        letter-spacing: 1px;
+        margin: 30px;
+        float: left;
+        width: 90%;
+    }
+
+    #third-img {
+        width: 70vw;
+        margin-left: 150px;
+        }
+
+
     /* About section */
     #about-section {
         font-size: x-large;
@@ -296,13 +306,6 @@ footer {
     
         }
 
-
-    #follow-us {
-        margin-top: 800px;
-        padding: 40px;
-        text-align: center;
-    }
-
     /* Subscription form */
 
     #webiner > h4 {
@@ -322,6 +325,7 @@ footer {
     #cover-image {
         width: 60%;
         padding-bottom: 90px;
+        float: right;
     }
 
     #signup {
@@ -361,16 +365,7 @@ footer {
     }
 
     #forth-quote-image {
-        width: 60vh;
-        float: left;
-        margin-left: 150px;
-        display: flex;
+        width: 60vw;
     }
-
-    /* Remove ecess space on footer*/
-    #reduce{
-        margin-bottom: -700px;
-    }
-
 
 }
