@@ -1,8 +1,8 @@
-This website is is created for the purpose of completing the first milestone project for the Code Institution Full Stack Development course. It was built using the knowledge gained from the HTML and CSS as well as doing the Love Running Project. The live website can be found 
+This website is is created for the purpose of completing the first milestone project for the Code Institution Full Stack Development course. It was built using the knowledge gained from the HTML and CSS as well as doing the Love Running Project. The live website can be found
 
 Purpose
 
-The Family Life website is aimed at equipping parents with the knowledge they need in making parenting easy and fun. Teach parent how to communicate with their child(ren) and get the kids to listen without the parent yelling, nagging or losing control. And this is done by hosting an online class via zoom every last Saturday of the month. There's also a parenting page on the website for tips and quotes on how to become a better a successful parent.
+The Family Life website is aimed at equipping parents with the knowledge they need in making parenting easy and fun. Teach parent how to communicate with their child(ren) and get the kids to listen without the parent yelling, nagging or losing control. And this is done by hosting an online class via zoom. There's also a parenting page on the website for tips and quotes on how to become a successful parent.
 
 The page has "About" page for uses to read about what the website and it's aim are. Any parent who's interested can subscribe to join the class and will recieve email  with code to join the parenting class. Parents can also indicate if they want to receive news update or not. This is not a requirement anyone who's interested in receiving email update from Family Life will consent and anyone who doesn't will simply leave the checkbox blank.
 
